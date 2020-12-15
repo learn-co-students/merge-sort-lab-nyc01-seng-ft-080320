@@ -12,7 +12,8 @@ function merge(firstSubarray, secondSubArray){
         }
     } //the loop ends when either the first or second Subarray are destructively modified to the point of being empty. 
     return sorted.concat(firstSubarray).concat(secondSubArray) //sorted is then appended with whatever is left of the two subarrays (which will either be nothing or whatever elements still remain)
-}
+    // function merge(x, y) effectivley returns a sorted merged array, given two sorted arrays. 
+}   
 
 function mergeSort(array){
     let midpoint = array.length/2
